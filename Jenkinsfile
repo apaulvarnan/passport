@@ -27,22 +27,22 @@ pipeline{
             }
         }
     
-    /* stage('Deploy to artifactory'){
+     stage('Deploy to artifactory'){
         steps{
         rtUpload(
-         serverId : 'ARTIFACTORY_SERVER',
+         serverId : 'JFrogserver',
          spec :'''{
            "files" :[
            {
            "pattern":"target/*.jar",
-           "target":"art-doc-devo-loc"
+           "target":"Art-mvn-040522.2"
            }
            ]
          }''',
          
       )
       }
-     }*/
+     }
   }
         post {  
          always {  

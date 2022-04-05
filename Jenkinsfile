@@ -35,7 +35,7 @@ pipeline{
            "files" :[
            {
            "pattern":"target/*.jar",
-           "target":"Art-mvn-040522.2/dev"
+           "target":"Art-mvn-040522.2/dev/"
            }
            ]
          }''',
